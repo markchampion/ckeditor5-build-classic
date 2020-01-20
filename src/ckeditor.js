@@ -96,5 +96,9 @@ ClassicEditor.defaultConfig = {
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
-	language: 'en'
+	language: 'en',
+	cloudServices: {
+		uploadUrl: 'https://57218.cke-cs.com/easyimage/upload/',
+		tokenUrl: 'https://57218.cke-cs.com/token/dev/ASIXR0GT4dO16fn2itO48iy2CV4B7xchis3smgZdt1CSIXcn51zrzQ3xeBnR'
+	}
 };
